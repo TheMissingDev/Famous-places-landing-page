@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Explore the world - Here you will find the most famous and beautifull
+      places on planet Earth
+    </title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png" />
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-bar">
+        <li class="logo">
+          <i
+            href="/index.html"
+            id="icon-earth"
+            class="fa-solid fa-earth-europe"
+          ></i>
+        </li>
+        <input type="checkbox" id="check" />
+        <span class="menu">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+          <li><a href="/Contact.html">Contact</a></li>
+          <label for="check"
+            ><i id="close" class="fa-solid fa-xmark"></i>
+          </label>
+        </span>
+        <label for="check"><i id="open" class="fa-solid fa-bars"></i></label>
+      </ul>
+    </nav>
+    <section class="hero">
+      <div class="content-left">
+        <h1>
+          Beautiful places from <br />
+          the world on your screen
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+          Suscipit error tempore et, officiis sit.
+        </p>
+        <button id="get-btn">Get Started</button>
+      </div>
+      <div class="content-right">
+        <div class="slider">
+          <div class="images">
+            <input type="radio" name="slide" id="img1" />
+            <input type="radio" name="slide" id="img2" />
+            <input type="radio" id="img3" name="slide" />
+            <input type="radio" id="img4" name="slide" />
+            <input type="radio" id="img5" name="slide" />
+            <label id="dot1" for="img1"></label>
+            <label id="dot2" for="img2"></label>
+            <label id="dot3" for="img3"></label>
+            <label id="dot4" for="img4"></label>
+            <label id="dot5" for="img5"></label>
+            <img src="/images/img5.jpg" id="m1" alt="img1" />
+            <img src="/images/img3.jpg" id="m2" alt="img2" />
+            <img src="/images/img4.jpg" id="m3" alt="img3" />
+            <img src="/images/img2.jpg" id="m4" alt="img4" />
+            <img src="/images/img7.jpg" id="m5" alt="img5" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
